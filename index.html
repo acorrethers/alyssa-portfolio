@@ -1,45 +1,84 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alyssa Correthers | Data Analyst Portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
-        body { font-family: Arial, sans-serif; margin: 2rem; background: #f4f4f4; color: #333; }
-        h1 { color: #222; }
-        .project { margin-bottom: 1.5rem; }
-        a { color: #007acc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 2rem;
+            background: #f9f7fc;
+            color: #3a0ca3;
+        }
+        h1, h2 {
+            color: #5f0f40;
+        }
+        a {
+            color: #7209b7;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .project {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: #e0aaff;
+            border-radius: 8px;
+        }
+        header, footer {
+            margin-bottom: 2rem;
+        }
+        .button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #7209b7;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <h1>Alyssa Correthers</h1>
-    <p><strong>Aspiring Data Analyst</strong> | Excel, SQL, Tableau, Power BI</p>
-    <p>Welcome to my data portfolio. Here are a few projects showcasing my technical skills and data storytelling ability:</p>
+    <header>
+        <h1>Alyssa Correthers</h1>
+        <p><strong>Aspiring Data Analyst</strong> | Excel, SQL, Tableau, Power BI</p>
+    </header>
 
-    <div class="project">
-        <h2>Excel: Sales Analysis Dashboard</h2>
-        <p><a href="https://github.com/acorrethers/excel-projects" target="_blank">View on GitHub</a></p>
-    </div>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I’m a motivated and detail-oriented aspiring data analyst building a future in tech by combining data skills with real-world business acumen. Currently pursuing an Associate’s Degree in Data Analytics while developing a strong portfolio of hands-on projects across Excel, SQL, Tableau, and Power BI.</p>
+    </section>
 
-    <div class="project">
-        <h2>SQL: E-commerce Performance Analysis</h2>
-        <p><a href="https://github.com/acorrethers/sql-ecommerce-performance" target="_blank">View on GitHub</a></p>
-    </div>
+    <section>
+        <h2>Projects</h2>
 
-    <div class="project">
-        <h2>Tableau: Regional Sales Dashboard</h2>
-        <p><a href="https://public.tableau.com/app/profile/alyssa.correthers" target="_blank">View on Tableau Public</a></p>
-    </div>
+        <div class="project">
+            <h3>Excel: Sales Analysis Dashboard</h3>
+            <p><a href="https://github.com/acorrethers/excel-projects" target="_blank">View on GitHub</a></p>
+        </div>
 
-    <div class="project">
-        <h2>Power BI: Inventory Management Report</h2>
-        <p><em>(Coming Soon)</em></p>
-    </div>
+        <div class="project">
+            <h3>SQL: E-commerce Performance Analysis</h3>
+            <p><a href="https://github.com/acorrethers/sql-ecommerce-performance" target="_blank">View on GitHub</a></p>
+        </div>
 
-    <footer style="margin-top: 2rem;">
-        <p>📬 Contact: alyssa@example.com</p>
+        <div class="project">
+            <h3>Tableau: Regional Sales Dashboard</h3>
+            <p><a href="https://public.tableau.com/app/profile/alyssa.correthers" target="_blank">View on Tableau Public</a></p>
+        </div>
+
+        <div class="project">
+            <h3>Power BI: Inventory Management Report</h3>
+            <p><em>(Coming Soon)</em></p>
+        </div>
+    </section>
+
+    <footer>
+        <p><a class="button" href="mailto:alyssa@example.com">Contact Me</a></p>
     </footer>
 </body>
 </html>
+
